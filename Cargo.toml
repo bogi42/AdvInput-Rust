@@ -1,0 +1,11 @@
+[package]
+name = "advanced_inputs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustyline = "16.0"
+colored = "2.0"
+# Those two will derive to create the PrintableEnum trait
+strum = "0.26"
+strum_macros = "0.26"
